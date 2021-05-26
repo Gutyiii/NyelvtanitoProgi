@@ -1,0 +1,105 @@
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+    background:  linear-gradient(to left, #00ccff, white);
+     --font-family: monospace;
+    width:100%;
+    table-layout: fixed;
+}
+td{
+    border:1px solid black;
+    text-align: center;
+    padding:10px;
+    margin:5px;
+     font-size: 1.5rem;
+    padding: 15px;
+    text-align: left;
+    vertical-align:middle;
+    font-weight: 300;
+    text-align: center;
+    color:black;
+    border-bottom: solid 1px rgba(255,255,255,0.1);
+   
+}
+th{
+
+    padding:15px;
+    margin:5px;
+    border:1px solid black;
+    padding: 20px 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size:30px;
+    color: black;
+    text-transform: uppercase;
+}
+.multi-button {
+    display: flex;
+    width: 100%;
+    box-shadow: var(--shadow) 4px 4px;
+}
+
+.multi-button button {
+    flex-grow: 1;
+    cursor: pointer;
+    position: relative;
+    padding:
+        calc(var(--space) / 1.125)
+        var(--space)
+        var(--space);
+    border: var(--border-size) solid black;
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
+    font-size: 1.2rem;
+    font-family: var(--font-family);
+    text-transform: lowercase;
+    text-shadow: var(--shadow) 2px 2px;
+    transition: flex-grow var(--duration) var(--ease);
+}
+
+.multi-button button + button {
+    border-left: var(--border-size) solid black;
+    margin-left: calc(var(--border-size) * -1);
+}
+
+.multi-button button:hover,
+.multi-button button:focus {
+    flex-grow: 2;
+    color: white;
+    outline: none;
+    text-shadow: none;
+    background-color: var(--color-secondary);
+}
+
+.multi-button button:focus {
+    outline: var(--border-size) dashed var(--color-primary);
+    outline-offset: calc(var(--border-size) * -3);
+}
+
+.multi-button:hover button:focus:not(:hover) {
+    flex-grow: 1;
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
+    outline-color: var(--color-tertiary);
+}
+
+.multi-button button:active {
+    transform: translateY(var(--border-size));
+}
+
+:root {
+    --border-size: 0.125rem;
+    --duration: 250ms;
+    --ease: cubic-bezier(0.215, 0.61, 0.355, 1);
+    --font-family: monospace;
+    --color-primary: white;
+    --color-secondary: black;
+    --color-tertiary: dodgerblue;
+    --shadow: rgba(0, 0, 0, 0.1);
+    --space: 1rem;
+}* {
+    box-sizing: border-box; --font-family: monospace;
+    
+}
