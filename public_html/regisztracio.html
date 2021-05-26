@@ -11,6 +11,62 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>TODO write content</div>
+        <main>
+            <header><h1>Regisztráció</h1></header>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Kilépés</li>
+                </ul>
+            </nav>
+            <article>
+                <form>
+                    <fieldset>
+                        <legend>Számológép</legend>
+                        <div>
+                            <label for="ernev">Eredeti név: </label>
+                            <input type="text" id="ernev" name="ernev" placeholder="Gutyina András">
+                        </div>
+                        <div>
+                            <label for="felh">Felhasználónév: </label>
+                            <input type="text" id="felh" name="felh" placeholder="Gutyina123">
+                        </div>
+                        <div>
+                            <label for="jelsz">Jelszó: </label>
+                            <input type="text" id="jelsz" name="jelsz" placeholder="Izeee123">
+                        </div>
+                        <div>
+                            <label for="jelszujra">Jelszó újra: </label>
+                            <input type="text" id="jelszujra" name="jelszujra" placeholder="Izeee123">
+                        </div>
+                        <div>
+                            <label for="lakh">Lakhely: </label>
+                            <input type="text" id="lakh" name="lakh" placeholder="Martonvásár">
+                        </div>
+                        <div>
+                            <label for="emaila">Email:</label>                           
+                            <input type="email" name="emaila" id="emaila" placeholder="valami123@valami.hu">
+                        </div>
+                        <div>
+                            <label for="eletk">Életkor: </label>                           
+                            <input type="number" name="eletk" id="eletk" placeholder="valami123@valami.hu">
+                        </div>
+                        <div>
+                            <label for="prio">Priorítás: </label>
+                            <select id="prio">
+                                <option selected>Válassz.. </option>
+                                <option>Szingli</option>
+                                <option>Házas életet él</option>
+                                <option>Egyéb</option>
+                            </select>
+                        </div>
+                    </fieldset>
+                    <div>
+                        <input type="button" id="kuldes" name="kuldes" value="Küldés">
+                    </div>
+                </form>
+            </article>
+            <footer>Gutyina András</footer>
+        </main>
     </body>
 </html>

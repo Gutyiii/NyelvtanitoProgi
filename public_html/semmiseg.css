@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+header, nav, article, footer{
+    border:1px solid gray;
+}
+
+main {
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+article div {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+
+li {
+    list-style-type: none;
+}
+
+footer {
+    text-align: center;
+}
+
