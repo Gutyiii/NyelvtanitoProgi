@@ -1,0 +1,85 @@
+[{
+    "magyar": "szék",
+    "angol": "chair",
+    "nemet": "stuhl"
+},{
+    "magyar": "asztal",
+    "angol": "table",
+    "nemet": "tabelle"
+
+},{
+    "magyar": "ágy",
+    "angol": "bed",
+    "nemet": "gehirn"
+
+},{
+    "magyar": "kanapé",
+    "angol": "couch",
+    "nemet": "couch"
+
+},{
+    "magyar": "hűtőszekrény",
+    "angol": "refrigerator",
+    "nemet": "kühlschrank"
+
+},{
+    "magyar": "tv",
+    "angol": "tv",
+    "nemet": "fernseher"
+},{
+    "magyar": "szekrény",
+    "angol": "cabinet",
+    "nemet": "kabinett"
+},{
+    "magyar": "polc",
+    "angol": "shelf",
+    "nemet": "regal"
+},{
+    "magyar": "sütő",
+    "angol": "oven",
+    "nemet": "ofen"
+},{
+    "magyar": "fotel",
+    "angol": "armchair",
+    "nemet": "sessel"
+},{
+    "magyar": "íróasztal",
+    "angol": "desk",
+    "nemet": "schreibtisch"
+},{
+    "magyar": "éjjeliszekrény",
+    "angol": "nightstand",
+    "nemet": "nachttisch"
+},{
+    "magyar":"tükör",
+    "angol": "mirror",
+    "nemet": "spiegel"
+},{
+    "magyar": "kád",
+    "angol": "tub",
+    "nemet": "wanne"
+},{
+    "magyar":"zuhanytálca",
+    "angol": "shower tray",
+    "nemet": "duschwanne"
+},{
+    "magyar":"wc",
+    "angol": "toilet",
+    "nemet": "toilette"
+},{
+    "magyar":"gáztűzhely",
+    "angol": "gas stove",
+    "nemet": "gasherd"
+},{
+    "magyar": "mikro hullámu sütő",
+    "angol": "microwave",
+    "nemet": "mikrowelle"
+},{
+    "magyar": "lámpa",
+    "angol": "lamp",
+    "nemet": "lampe"
+},{
+    "magyar": "mosogató",
+    "angol": "sink",
+    "nemet": "sinken"
+}]
