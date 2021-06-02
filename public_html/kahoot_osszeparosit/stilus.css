@@ -6,7 +6,10 @@
 
 body{
     /*text-align: center;*/
-    
+    background-image: url("photo-1579546929662-711aa81148cf.jpg"); 
+
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 main{
     max-width: 1000px;
@@ -23,8 +26,8 @@ section{
     text-align: center;
     margin: auto;
     font-size: 40px;
-    
-    
+
+
 }
 section div{
     display: flex;
@@ -34,6 +37,7 @@ section div{
     height: 200px;
     text-align: center;
     border: 1px solid gray;
+    background: white;
 }
 section div:hover{
     cursor: pointer;
@@ -45,4 +49,109 @@ section img{
 input{
     font-size:20px;
     padding: 10px;
+}
+
+article img {
+    width: 200px;
+    height: 200px;
+}
+
+article div {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+
+li {
+    list-style-type: none;
+}
+
+footer {
+    text-align: center;
+}
+
+.multi-button {
+    display: flex;
+    width: 100%;
+    box-shadow: var(--shadow) 4px 4px;
+}
+
+.multi-button button {
+    flex-grow: 1;
+    cursor: pointer;
+    position: relative;
+    padding:
+        calc(var(--space) / 1.125)
+        var(--space)
+        var(--space);
+    border: var(--border-size) solid black;
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
+    font-size: 1.2rem;
+    font-family: var(--font-family);
+    text-transform: lowercase;
+    text-shadow: var(--shadow) 2px 2px;
+    transition: flex-grow var(--duration) var(--ease);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.multi-button button + button {
+    border-left: var(--border-size) solid black;
+    margin-left: calc(var(--border-size) * -1);
+}
+
+.multi-button button:hover,
+.multi-button button:focus {
+    flex-grow: 2;
+    color: white;
+    outline: none;
+    text-shadow: none;
+    background-color: var(--color-secondary);
+}
+
+.multi-button button:focus {
+    outline: var(--border-size) dashed var(--color-primary);
+    outline-offset: calc(var(--border-size) * -3);
+}
+
+.multi-button:hover button:focus:not(:hover) {
+    flex-grow: 1;
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
+    outline-color: var(--color-tertiary);
+}
+
+.multi-button button:active {
+    transform: translateY(var(--border-size));
+}
+
+:root {
+    --border-size: 0.125rem;
+    --duration: 250ms;
+    --ease: cubic-bezier(0.215, 0.61, 0.355, 1);
+    --font-family: monospace;
+    --color-primary: white;
+    --color-secondary: black;
+    --color-tertiary: dodgerblue;
+    --shadow: rgba(0, 0, 0, 0.1);
+    --space: 1rem;
+}* {
+    box-sizing: border-box; --font-family: monospace;
+
+}
+
+@media screen and (max-width: 600px) {
+    section div{
+        font-size:25px;
+    }
 }
