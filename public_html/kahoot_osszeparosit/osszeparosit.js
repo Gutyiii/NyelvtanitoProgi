@@ -1,5 +1,6 @@
 var sport = [];
 var allatok=[];
+var nyelv = localStorage.getItem("nyelv");
 
 $(function () {
     beolvas();
@@ -42,7 +43,14 @@ function parokTombKiir() {
     allatok.sort(function () {
         return 0.5 - Math.random();
     });
-    parokTomb = ["<div class=\"0\">" + sport[0].angol + "</div>", "<div class=\"0\">" + sport[0].kep + "></div>", "<div class=\"1\">" + sport[1].angol + "</div>", "<div class=\"1\">" + sport[1].kep + "></div>", "<div class=\"2\">" + sport[2].angol + "</div>", "<div class=\"2\">" + sport[2].kep + "></div>", "<div class=\"3\">" + allatok[3].angol + "</div>", "<div class=\"3\">" + allatok[3].kep + "></div>", "<div class=\"4\">" + allatok[4].angol + "</div>", "<div class=\"4\">" + allatok[4].kep + "></div>", "<div class=\"5\">" + allatok[5].angol + "</div>", "<div class=\"5\">" + allatok[5].kep + "></div>"];
+    if (nyelv === "angol") {
+        parokTomb = ["<div class=\"0\">" + sport[0].angol + "</div>", "<div class=\"0\">" + sport[0].kep + "</div>", "<div class=\"1\">" + sport[1].angol + "</div>", "<div class=\"1\">" + sport[1].kep + "</div>", "<div class=\"2\">" + sport[2].angol + "</div>", "<div class=\"2\">" + sport[2].kep + "</div>", "<div class=\"3\">" + allatok[3].angol + "</div>", "<div class=\"3\">" + allatok[3].kep + "</div>", "<div class=\"4\">" + allatok[4].angol + "</div>", "<div class=\"4\">" + allatok[4].kep + "</div>", "<div class=\"5\">" + allatok[5].angol + "</div>", "<div class=\"5\">" + allatok[5].kep + "</div>"];
+    } else if (nyelv === "nemet") {
+        parokTomb = ["<div class=\"0\">" + sport[0].nemet + "</div>", "<div class=\"0\">" + sport[0].kep + "</div>", "<div class=\"1\">" + sport[1].nemet + "</div>", "<div class=\"1\">" + sport[1].kep + "</div>", "<div class=\"2\">" + sport[2].nemet + "</div>", "<div class=\"2\">" + sport[2].kep + "</div>", "<div class=\"3\">" + allatok[3].nemet + "</div>", "<div class=\"3\">" + allatok[3].kep + "</div>", "<div class=\"4\">" + allatok[4].nemet + "</div>", "<div class=\"4\">" + allatok[4].kep + "</div>", "<div class=\"5\">" + allatok[5].nemet + "</div>", "<div class=\"5\">" + allatok[5].kep + "</div>"];
+    } else if (nyelv === "magyar") {
+        parokTomb = ["<div class=\"0\">" + sport[0].magyar + "</div>", "<div class=\"0\">" + sport[0].kep + "</div>", "<div class=\"1\">" + sport[1].magyar + "</div>", "<div class=\"1\">" + sport[1].kep + "</div>", "<div class=\"2\">" + sport[2].magyar + "</div>", "<div class=\"2\">" + sport[2].kep + "</div>", "<div class=\"3\">" + allatok[3].magyar + "</div>", "<div class=\"3\">" + allatok[3].kep + "</div>", "<div class=\"4\">" + allatok[4].magyar + "</div>", "<div class=\"4\">" + allatok[4].kep + "</div>", "<div class=\"5\">" + allatok[5].magyar + "</div>", "<div class=\"5\">" + allatok[5].kep + "</div>"];
+    }
+    
     parokTomb.sort(function () {
         return 0.5 - Math.random();
     });
@@ -100,7 +108,6 @@ function ellenoriz() {
         $("main").empty();
         $("main").append("<h1>Nyertél!!</h1></br>").css("font-size", "40px");
         $("main").append("<form><input type=\"button\" name=\"uj\" id=\"uj\" value=\"Új Játék\"></form><br>").css("font-size", "40px");
-        $("main").append("<form><input type=\"button\" name=\"vissza\" id=\"vissza\" value=\"Vissza a játékokhoz\"></form>");
         pont=0;
     }
     $("#uj").click(parokTombKiir);

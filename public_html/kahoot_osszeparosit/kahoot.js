@@ -1,5 +1,6 @@
 var allatok = [];
 var sport = [];
+var nyelv = localStorage.getItem("nyelv");
 
 $(function () {
     beolvas();
@@ -45,7 +46,13 @@ function kiir() {
     sport.sort(function () {
         return 0.5 - Math.random();
     });
-    var kiirTomb = ["<div class=\"allat\">" + allatok[0].angol + "</div>", "<div class=\"allat\">" + allatok[1].angol + "</div>", "<div class=\"sport\">" + sport[1].angol + "</div>"];
+    if (nyelv==="angol") {
+        var kiirTomb = ["<div class=\"allat\">" + allatok[0].angol + "</div>", "<div class=\"allat\">" + allatok[1].angol + "</div>", "<div class=\"sport\">" + sport[1].angol + "</div>"];
+    }else if(nyelv==="nemet"){
+        var kiirTomb = ["<div class=\"allat\">" + allatok[0].nemet + "</div>", "<div class=\"allat\">" + allatok[1].nemet + "</div>", "<div class=\"sport\">" + sport[1].nemet + "</div>"];
+    }else if(nyelv==="magyar"){
+        var kiirTomb = ["<div class=\"allat\">" + allatok[0].magyar + "</div>", "<div class=\"allat\">" + allatok[1].magyar + "</div>", "<div class=\"sport\">" + sport[1].magyar + "</div>"];
+    }
 
     kiirTomb.sort(function () {
         return 0.5 - Math.random();
@@ -70,8 +77,7 @@ function ellenoriz() {
         $("main").empty();
         $("main").append("<h1>Nyertéll!!</h1></br>").css("font-size", "40px");
         $("main").append("<form><input type=\"button\" name=\"uj\" id=\"uj\" value=\"Új Játék\"></form><br>").css("font-size", "40px");
-        $("main").append("<form><input type=\"button\" name=\"vissza\" id=\"vissza\" value=\"Vissza a játékokhoz\"></form>");
-    } else {
+        } else {
         if (i !== "allat") {
             $(this).css("background-color", "green");
             $(this).css("color", "white");
