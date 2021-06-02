@@ -1,0 +1,118 @@
+[
+    {
+        "kep1": "negyKepEgySzoKepek/serult/serultkep1.jpg",
+        "kep2": "negyKepEgySzoKepek/serult/serultkep2.jpg",
+        "kep3": "negyKepEgySzoKepek/serult/serultkep3.jpg",
+        "kep4": "negyKepEgySzoKepek/serult/serultkep4.jpg",
+        "magyar": "sérült",
+        "angol": "injured",
+        "nemet": "verletzt"
+    },
+    {
+        "kep1": "negyKepEgySzoKepek/celkereszt/celkeresztkep1.jpg",
+        "kep2": "negyKepEgySzoKepek/celkereszt/celkeresztkep2.jpg",
+        "kep3": "negyKepEgySzoKepek/celkereszt/celkeresztkep3.jpg",
+        "kep4": "negyKepEgySzoKepek/celkereszt/celkeresztkep4.jpg",
+        "magyar": "célkereszt",
+        "angol": "crosshair",
+        "nemet": "fadenkreuz"
+    },
+    {
+        "kep1": "negyKepEgySzoKepek/loni/lonikep1.jpg",
+        "kep2": "negyKepEgySzoKepek/loni/lonikep2.jpg",
+        "kep3": "negyKepEgySzoKepek/loni/lonikep3.jpg",
+        "kep4": "negyKepEgySzoKepek/loni/lonikep4.jpg",
+        "magyar": "lőni",
+        "angol": "shoot",
+        "nemet": "schießen"
+    },
+    {
+        "kep1": "negyKepEgySzoKepek/robbanas/robbanaskep1.jpg",
+        "kep2": "negyKepEgySzoKepek/robbanas/robbanaskep2.jpg",
+        "kep3": "negyKepEgySzoKepek/robbanas/robbanaskep3.jpg",
+        "kep4": "negyKepEgySzoKepek/robbanas/robbanaskep4.jpg",
+        "magyar": "robbanás",
+        "angol": "explosion",
+        "nemet": "explosion"
+    },
+    {
+        "magyar": "számítógép",
+        "angol": "computer",
+        "nemet": "computer"
+    },
+    {
+        "magyar": "fejhallgató",
+        "angol": "headset",
+        "nemet": "headset"
+    },
+    {
+        "magyar": "egér",
+        "angol": "mouse",
+        "nemet": "maus"
+    },
+    {
+        "magyar": "csapattárs",
+        "angol": "teammate",
+        "nemet": "mitkämpfer"
+    },
+    {
+        "magyar": "gőzelem",
+        "angol": "win",
+        "nemet": "sieg"
+    },
+    {
+        "magyar": "fegyver",
+        "angol": "weapon",
+        "nemet": "waffe"
+    },
+    {
+        "magyar": "társas játék",
+        "angol": "board game",
+        "nemet": "brettspiel"
+    },
+    {
+        "magyar": "kés",
+        "angol": "knife",
+        "nemet": "messer"
+    },
+    {
+        "magyar": "harc",
+        "angol": "battle",
+        "nemet": "kampf"
+    },
+    {
+        "magyar": "kocka",
+        "angol": "cube",
+        "nemet": "würfel"
+    },
+    {
+        "magyar": "gránát",
+        "angol": "granade",
+        "nemet": "granate"
+    },
+    {
+        "magyar": "mesterlövész",
+        "angol": "snpier",
+        "nemet": "scharfschütze"
+    },
+    {
+        "magyar": "páncél",
+        "angol": "armor",
+        "nemet": "rüstung"
+    },
+    {
+        "magyar": "sisak",
+        "angol": "helmet",
+        "nemet": "helm"
+    },
+    {
+        "magyar": "varázslat",
+        "angol": "spell",
+        "nemet": "zauber"
+    },
+    {
+        "magyar": "futás",
+        "angol": "running",
+        "nemet": "laufen"
+    }
+]

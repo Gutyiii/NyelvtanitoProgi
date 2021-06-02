@@ -1,0 +1,122 @@
+[
+    {
+        "angol": "dog",
+        "nemet": "hund",
+        "magyar": "kutya",
+        "kep": "<img src=\"allatok/kutya.jpg\" "
+    },
+    {
+        "angol": "cat",
+        "nemet": "katze",
+        "magyar": "macska",
+        "kep": "<img src=\"allatok/macska.jpg\" "
+    },
+    {
+        "angol": "dolphin",
+        "nemet": "delfin",
+        "magyar": "delfin",
+        "kep": "<img src=\"allatok/delfin.jpg\" "
+    },
+    {
+        "angol": "shark",
+        "nemet": "hai",
+        "magyar": "cápa",
+        "kep": "<img src=\"allatok/cápa.jpg\" "
+    },
+    {
+        "angol": "guinea pig",
+        "nemet": "meerschweinchen",
+        "magyar": "tengerimalac",
+        "kep": "<img src=\"allatok/tm.jpg\" "
+    },
+    {
+        "angol": "hamster",
+        "nemet": "hamster",
+        "magyar": "hörcsög",
+        "kep": "<img src=\"allatok/hörcsög.jpg\" "
+    },
+    {
+        "angol": "parrot",
+        "nemet": "papagei",
+        "magyar": "papagáj",
+        "kep": "<img src=\"allatok/papagaj.jpg\" "
+    },
+    {
+        "angol": "crocodile",
+        "nemet": "krokodil",
+        "magyar": "krokodil",
+        "kep": "<img src=\"allatok/crocodile.jpg\" "
+    },
+    {
+        "angol": "hippopotamus",
+        "nemet": "nilpferd",
+        "magyar": "víziló",
+        "kep": "<img src=\"allatok/vizilo.jpg\" "
+    },
+    {
+        "angol": "giraffe",
+        "nemet": "girafee",
+        "magyar": "zsirág",
+        "kep": "<img src=\"allatok/zsiraf.jpg\" "
+    },
+    {
+        "angol": "zebra",
+        "nemet": "zebra",
+        "magyar": "zebra",
+        "kep": "<img src=\"allatok/zebra.jpg\" "
+    },
+    {
+        "angol": "rhino",
+        "nemet": "nashorn",
+        "magyar": "orrszarvú",
+        "kep": "<img src=\"allatok/orrszarvu.jpg\" "
+    },
+    {
+        "angol": "goat",
+        "nemet": "ziege",
+        "magyar": "kecske",
+        "kep": "<img src=\"allatok/kecske.jpg\" "
+    },
+    {
+        "angol": "bee",
+        "nemet": "biene",
+        "magyar": "méhecske",
+        "kep": "<img src=\"allatok/mehecske.jpg\" "
+    },
+    {
+        "angol": "lion",
+        "nemet": "löwe",
+        "magyar": "oroszlán",
+        "kep": "<img src=\"allatok/oroszlan.jpg\" "
+    },
+    {
+        "angol": "bear",
+        "nemet": "bär",
+        "magyar": "medve",
+        "kep": "<img src=\"allatok/medve.jpg\" "
+    },
+    {
+        "angol": "ferret",
+        "nemet": "frettchen",
+        "magyar": "vadászgörény",
+       "kep": "<img src=\"allatok/vg.jpg\" "
+    },
+    {
+        "angol": "fox",
+        "nemet": "fuchs",
+        "magyar": "róka",
+        "kep": "<img src=\"allatok/roka.jpg\" "
+    },
+    {
+        "angol": "peacock",
+        "nemet": "pfau",
+        "magyar": "páva",
+        "kep": "<img src=\"allatok/pava.jpg\" "
+    },
+    {
+        "angol": "llama",
+        "nemet": "lama",
+        "magyar": "láma",
+        "kep": "<img src=\"allatok/lama.jpg\" alt=\"\"/>"
+    }
+]
